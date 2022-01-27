@@ -1,8 +1,8 @@
 # Source-Confidence-Errors
 Analysis files for high confidence source errors utilizing behavioral data
 
-*incomplete repository
+*Note that this repository is currently incomplete as this is an ongoing project. 
 
-Contains preprocessing files and code to analyze behavioral data from a recognition memory task using a bayesian hierarchhical model. Preprocessing requires a total count of all high and low confidence source errors across varying levels of encoding strength for multiple datasets. A total of 12 datasets (utilizing similar task paradigms) were used in the analysis here. Running the 'DataFormat' script yeild csv files with source error counts for each subject, across each experiment, and each level of encoding strength. 
+as of 1/16/2022: Contains preprocessing files and code to clean behavioral data from a series recognition memory tasks that will be used in a bayesian hierarchhical model. Preprocessing requires computing a total count of all source errors made with high and low item confidence across varying levels of encoding strength. This is done across multiple datasets. A total of 12 datasets (utilizing similar task paradigms) were used in the analysis here. Running the 'DataFormat' script yeilds csv files with source error counts for each subject, across each experiment, and each level of encoding strength. 
 
-A Baysian Model is then used to determine how predictive item confidence can be of a source error across datasets, and levels of item confidence. 
+The main analysis for this study involves a Baysian hierarchical model. The model is used to estimate the proportion of source errors expected at different levels of item confidence. The current script titled "Error Model" is a beginning framework.
