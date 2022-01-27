@@ -8,7 +8,7 @@ Created on Tue Dec 14 18:28:38 2021
 import pandas as pd
 import numpy as np
 import glob
-root = '/Users/nicolecastillo/Documents/dataFiles_masters/SourceErrorConfidence'
+root = [insert root]
 
 ###############################
 # Starns and Ksander - BY ENCODING STRENGTH
